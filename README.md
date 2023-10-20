@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12492727&assignment_repo_type=AssignmentRepo)
 # Graph Representations
 
 Implement a function that converts an adjacency matrix to an adjacency list for
@@ -14,6 +15,10 @@ depend on the number of vertices, the number of edges, or both?
 
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
+
+### Answer
+
+The runtime complexity of this conversion should be $\Theta(|V|^2)$ where $V$ is the number of vertices.  The code runs through two loops, iterating through each row and column in the original matrix which has a size of $V \times V$.  Because of this, the runtime should scale with the size of the matrix provided.
 
 ## Bonus
 
