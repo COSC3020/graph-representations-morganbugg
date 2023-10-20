@@ -16,6 +16,10 @@ depend on the number of vertices, the number of edges, or both?
 Describe your reasoning and the conclusion you've come to. Your reasoning is the
 most important part. Add your answer to this markdown file.
 
+### Answer
+
+The runtime complexity of this conversion should be $\Theta(|V|^2)$ where $V$ is the number of vertices.  The code runs through two loops, iterating through each row and column in the original matrix which has a size of $V \times V$.  Because of this, the runtime should scale with the size of the matrix provided.
+
 ## Bonus
 
 Implement a function to convert an adjacency list to an adjacency matrix and
